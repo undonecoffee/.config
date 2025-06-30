@@ -1,0 +1,28 @@
+-- local ls = require 'luasnip'
+-- local fmta = require('luasnip.extras.fmt').fmta
+-- local i = ls.insert_node
+-- local t = ls.text_node
+-- --  2
+-- --  g
+-- --
+--
+-- ls.add_snippets('all', {
+--     ls.snippet(
+--         { trig = '{ ', wordTrig = false, regTrig = true, snippetType = 'autosnippet' },
+--         fmta('{\n    <>\n}', {
+--             i(1),
+--         })
+--     ),
+--     ls.snippet(
+--         { trig = '%( ', wordTrig = false, regTrig = true, snippetType = 'autosnippet' },
+--         fmta('(\n    <>\n)', {
+--             i(1),
+--         })
+--     ),
+--     ls.snippet(
+--         { trig = '%[ ', wordTrig = false, regTrig = true, snippetType = 'autosnippet' },
+--         fmta('[\n    <>\n]', {
+--             i(1),
+--         })
+--     ),
+-- })
