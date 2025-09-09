@@ -3,12 +3,13 @@ vim.o.number = true
 
 vim.cmd [[cnoreabbrev 2 w]]
 -- vim.cmd 'command 2 w'
-vim.cmd 'highlight MatchParen NONE'
 
+vim.opt.mouse = ''
 -- vim.opt.guicursor = 'n-v-c-i:block,ci-ve:ver25,r-cr:hor20,o:hor50'
 vim.opt.guicursor = 'a:block'
+-- vim.opt.guicursor = 'n-v-c-sm:block,i-ci-ve:ver25,r-cr-o:hor100'
 
-vim.g.loaded_matchparen = 1
+-- vim.g.loaded_matchparen = 1
 
 ----
 ----

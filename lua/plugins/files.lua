@@ -81,7 +81,7 @@ return {
             keymaps = {
                 open_file_in_vertical_split = '<leader>l',
                 open_file_in_horizontal_split = '<leader>j',
-                -- grep_in_directory = 'n',
+                grep_in_directory = '<leader>n',
                 copy_relative_path_to_selected_files = '<c-y>',
             },
             -- integrations = {

@@ -1,9 +1,5 @@
 vim.keymap.set('n', '<leader>sc', function()
-    require('telescope.builtin').find_files { cwd = 'C:/Users/cameron/AppData/Local/nvim' }
-end)
-
-vim.keymap.set('n', '<leader>su', function()
-    require('telescope.builtin').find_files { cwd = 'C:/Users/cameron/passwords/ct/legit/CoffeeClient-private/features' }
+    require('telescope.builtin').find_files { cwd = '~/.config/nvim' }
 end)
 
 vim.keymap.set('n', '<leader>gt', function()
@@ -24,6 +20,6 @@ vim.keymap.set('n', '<leader>sr', function()
 end)
 
 vim.keymap.set('n', '<leader>so', function()
-    vim.api.nvim_set_current_dir 'C:/Users/cameron/passwords/ct/legit/CoffeeClient-private'
+    vim.api.nvim_set_current_dir 'C:/Users/cameron/passwords'
     vim.cmd 'Yazi cwd'
 end)
