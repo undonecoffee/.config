@@ -26,7 +26,8 @@ vim.api.nvim_create_autocmd('VimEnter', {
             vim.opt_local.swapfile = false
             vim.cmd 'setlocal nonumber norelativenumber'
             vim.api.nvim_buf_set_lines(0, 0, -1, false, {
-                ' ',
+                -- ' ',  -- Use this instead!
+                ' hi! use <space>sr to open yazi first. Or use my better harpoon to go to an old file. This message is from nvim/lua/autocommands.lua so go there to remove it. ',
             })
         end
     end,

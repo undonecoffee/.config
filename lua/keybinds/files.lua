@@ -2,6 +2,11 @@ vim.keymap.set('n', '<leader>sc', function()
     require('telescope.builtin').find_files { cwd = '~/.config/nvim' }
 end)
 
+vim.keymap.set('n', '<leader>so', function()
+    vim.api.nvim_set_current_dir '~/passwords'
+    vim.cmd 'Yazi cwd'
+end)
+
 vim.keymap.set('n', '<leader>gt', function()
     vim.cmd "lua vim.api.nvim_set_current_dir(vim.fn.expand '%:p:h')"
     vim.cmd 'LazyGit'
@@ -13,10 +18,6 @@ vim.keymap.set('n', '<leader>sr', function()
     vim.cmd 'Yazi cwd'
 end)
 
-vim.keymap.set('n', '<leader>so', function()
-    vim.api.nvim_set_current_dir '~/passwords'
-    vim.cmd 'Yazi cwd'
-end)
 
 local telescope = require('telescope')
 local pickers = require('telescope.pickers')
@@ -27,12 +28,12 @@ local action_state = require('telescope.actions.state')
 
 -- List of files with custom names
 local my_files = {
-    { name = "firefox", path = "~/.mozilla/firefox/or2e7lin.default-release/chrome/userChrome.css" },
-    { name = "nvim", path = "~/.config/nvim/lua/keybinds/files.lua" },
-    { name = "bash", path = "~/passwords/bash/bashrc.sh" },
-    { name = "sxhkd", path = "~/.config/sxhkd/keybinds/app" },
-    { name = "bspwm", path = "~/.config/bspwm/bspwmrc" },
-    { name = "kitty", path = "~/.config/kitty/kitty.conf" },
+    { name = "firefox", path = "~/passwords/dotfiles/firefox.css" },
+    { name = "nvim", path = "~/passwords/dotfiles/nvim/lua/keybinds/files.lua" },
+    { name = "bash", path = "~/passwords/dotfiles/bash.sh" },
+    { name = "sxhkd", path = "~/passwords/dotfiles/sxhkd/keybinds/app" },
+    { name = "bspwm", path = "~/passwords/dotfiles/bspwm/bspwmrc" },
+    { name = "kitty", path = "~/passwords/dotfiles/kitty/kitty.conf" },
     { name = "obsidian", path = "~/passwords/documentation/main/.obsidian/snippets/Colored Sidebar Items.css" },
 }
 
