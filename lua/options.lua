@@ -16,7 +16,7 @@ vim.opt.guicursor = 'a:block'
 ----
 
 vim.o.cursorline = false
-vim.o.scrolloff = 15
+vim.o.scrolloff = 5
 
 vim.opt.expandtab = true
 vim.opt.shiftwidth = 4

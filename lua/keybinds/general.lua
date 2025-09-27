@@ -1,10 +1,11 @@
 vim.keymap.set('n', '<Esc>', function()
     vim.cmd 'silent nohlsearch'
-    vim.cmd 'echo "-"'
+    vim.cmd 'echo " "'
 end)
 
 -- vim.api.nvim_create_user_command('2', 'w', {})
 vim.keymap.set('n', '<leader>w', ':q<CR>')
+vim.keymap.set('n', '<leader>r', ':%s/')
 
 vim.keymap.set('n', '<leader>seo', ':OmniPreview start<CR>')
 vim.keymap.set('n', '<leader>ser', ':!Typst compile % --format pdf<CR>')
