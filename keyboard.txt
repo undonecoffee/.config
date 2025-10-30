@@ -1,0 +1,9 @@
+|  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  '   |
+|  ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |BSPC |  /   | 
+| SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  @  |  ,  |  .  | none |
+                   | LALT|LCTRL| SPC |   | ENT | RSE  | mod |
+
+|      |  I  | II  | III |  IV  | term |   | test |     |read |copy |btop |      |
+|      | AI  |close|open | find | git  |   |  ←   |  ↓  |  ↑  |  →  |     |      | 
+|      |sxhkd|     |kitty| type |browse|   |school|music|     |     |     |      |
+                   |     |      | code |   |      |     |     |

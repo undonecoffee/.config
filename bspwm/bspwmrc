@@ -7,7 +7,7 @@ bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 xsetroot -solid "#16181A"
 
-bspc monitor -d I II III IV t-term space-code p-btop y-testing o-obsidian b-firefox a-chatgpt g-github n-monkeytype m-music
+bspc monitor -d I II III IV t-term space-code p-btop y-testing o-obsidian b-firefox a-chatgpt g-github v-monkeytype m-music n-school
 
 bspc rule -a shell      desktop='t-term'       follow=off
 bspc rule -a nvim       desktop='space-code'   follow=off
@@ -17,8 +17,9 @@ bspc rule -a obsidian   desktop='o-obsidian'   follow=off
 bspc rule -a firefox    desktop='b-firefox'    follow=off
 bspc rule -a chatgpt    desktop='a-chatgpt'    follow=off
 bspc rule -a github     desktop='g-github'     follow=off
-bspc rule -a monkeytype desktop='n-monkeytype' follow=off
+bspc rule -a monkeytype desktop='v-monkeytype' follow=off
 bspc rule -a music      desktop='m-music'      follow=off
+bspc rule -a school     desktop='n-school'     follow=off
 
 . ~/.config/sxhkd/macros/startsxhkd.sh 
 unclutter -idle 0.7 &
@@ -38,6 +39,7 @@ firefox --no-remote -P chatgpt         --class chatgpt    https://chat.openai.co
 firefox --no-remote -P github          --class github     https://github.com/undonecoffee?tab=repositories &
 firefox --no-remote -P monkeytype      --class monkeytype https://monkeytype.com    &
 firefox --no-remote -P music           --class music      https://music.youtube.com &
+firefox --no-remote -P school          --class school     https://google.com &
 
 # firefox --no-remote -P testing         --class testing    http://localhost:5173/ &
 # chromium --app=http://localhost:5173/  --name="testing" --class testing

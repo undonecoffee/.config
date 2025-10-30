@@ -33,6 +33,7 @@ local action_state = require('telescope.actions.state')
 
 -- List of files with custom names
 local my_files = {
+    { name = "keyboard", path = "~/passwords/dotfiles/keyboard.txt" },
     { name = "firefox", path = "~/passwords/dotfiles/firefox.css" },
     { name = "nvim", path = "~/passwords/dotfiles/nvim/lua/keybinds/files.lua" },
     { name = "bash", path = "~/passwords/dotfiles/bash.sh" },

@@ -23,10 +23,12 @@ super + a
     bspc desktop -f "a-chatgpt"
 super + g
     bspc desktop -f "g-github"
-super + n
-    bspc desktop -f "n-monkeytype"
+super + v
+    bspc desktop -f "v-monkeytype"
 super + m
     bspc desktop -f "m-music"
+super + n
+    bspc desktop -f "n-school"
 
 super + shift + q
     bspc node -d I
@@ -52,10 +54,12 @@ super + shift + a
     bspc node -d "a-chatgpt"
 super + shift + g
     bspc node -d "g-github"
-super + shift + n
-    bspc node -d "n-monkeytype"
+super + shift + v
+    bspc node -d "v-monkeytype"
 super + shift + m
     bspc node -d "m-music"
+super + shift + n
+    bspc node -d "n-school"
 
 super + h
     bspc node -f west
