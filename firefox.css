@@ -1,0 +1,17 @@
+.tab-icon-overlay,
+.tab-close-button, 
+.searchbar-search-button,
+.searchbar-bookmark-button,
+.button-background,
+#sidebar-tools-and-extensions-splitter,
+#picture-in-picture-button,
+#back-button,
+#forward-button,
+#identity-box,
+#star-button,
+#star-button-box,
+#tabs-newtab-button,
+#tracking-protection-icon-container,
+#permissions-granted-icon {
+  display: none !important;
+}

@@ -1,0 +1,9 @@
+
+super + d
+    dmenu_run
+super + f
+    python3 ~/passwords/python/search/search.py
+super + c
+    kitty
+super + i
+    . ~/passwords/bash/speakText/speakText.sh

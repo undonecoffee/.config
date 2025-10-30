@@ -1,0 +1,12 @@
+
+super + alt + q 
+    bspc quit
+super + alt + x 
+    systemctl suspend
+super + alt + r
+    bspc wm -r
+super + z
+    . ~/.config/sxhkd/macros/startsxhkd.sh
+super + s
+    bspc node -c
+

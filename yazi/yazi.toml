@@ -1,0 +1,5 @@
+[mgr]
+show_hidden = true            # show hidden files
+sort_by = "alphabetical"      # how to sort files: none | mtime | size | etc
+sort_reverse = false          # reverse the sort order
+linemode = "size"             # show file‐size in list
