@@ -1,0 +1,230 @@
+{
+  "main": {
+    "id": "f18900725493bcf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "5d33f46f5fba34b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da0d08cfad27641c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Math/01-Lessons/4.2.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "4.2"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0bc6d0dd6c08ebae",
+    "type": "split",
+    "children": [
+      {
+        "id": "97096f11f1f7a1e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9e01e2ee2c247c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "000506061f757dba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "restor",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5c54f6b2ccb84d46",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 241.5
+  },
+  "right": {
+    "id": "37afb316d3f12e33",
+    "type": "split",
+    "children": [
+      {
+        "id": "746346044a384511",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bbdacc1068b208e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-History/U2/L5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for L5"
+            }
+          },
+          {
+            "id": "860892cac37e89dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "d2c832c377490e46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "848e5bc003aee52d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "b8361c16369c245a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "zk-prefixer:Create new unique note": false
+    }
+  },
+  "active": "e9e01e2ee2c247c2",
+  "lastOpenFiles": [
+    "05-Crochet/Hat.md",
+    "01-Math/01-Lessons/4.2.md",
+    "01-Math/01-Lessons",
+    "01-Math",
+    "05-Crochet/hat.png",
+    "06-Coding/Trainer.md",
+    "04-History/02-Timeline/1607.md",
+    "06-Coding",
+    "03-Physics/99-Drawings/velo-speed.md",
+    "03-Physics/01-Lessons/3.3.md",
+    "SCRATCH.md",
+    "DAY.md",
+    "03-Physics/02-CheatSheets/Kinematics.md",
+    "03-Physics/99-PDF/Kinematics.typ~",
+    "03-Physics/99-PDF/test.typ",
+    "03-Physics/99-PDF/Kinematics.pdf",
+    "03-Physics/99-PDF/Kinematics.typ",
+    "03-Physics/99-PDF/Kinematics_1.png",
+    "03-Physics/99-PDF/Kinematics.png",
+    "03-Physics/99-PDF/U1_L1_Cameron_Wilcox.typ~",
+    "03-Physics/99-Vocab/Velocity.md",
+    "03-Physics/99-PDF/U1_L1_Cameron_Wilcox.pdf",
+    "03-Physics/99-PDF/U1_L1_Cameron_Wilcox.png",
+    "99-meta/Images/Screenshot 2025-09-23 at 19-49-48 APUSHIST A P The Development of Civilization in North America - Page 1 of 11.png",
+    "04-History/01-Lessons/3.9.md",
+    "05-Crochet",
+    "04-History/01-Lessons/3.1.md",
+    "04-History/01-Lessons/3.2.md",
+    "04-History/01-Lessons/3.7.md",
+    "04-History/01-Lessons/3.6.md",
+    "03-Physics/99-Vocab/Speed.md",
+    "03-Physics/99-Vocab/Vector.md",
+    "03-Physics/99-Vocab/Displacement.md",
+    "Scalar.md",
+    "03-Physics/99-Vocab/Acceleration.md",
+    "04-History/03-Cultures/Colonies/English/Carolina.md",
+    "04-History/03-Cultures/Colonies/English/Delaware.md",
+    "04-History/03-Cultures/Colonies/New Orleans.md",
+    "04-History/99-Vocab/Glorious Revolution.md",
+    "04-History/99-Vocab/Restoration.md",
+    "04-History/99-Vocab/Halfway Covenant.md"
+  ]
+}

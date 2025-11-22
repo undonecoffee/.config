@@ -1,0 +1,259 @@
+{
+  "main": {
+    "id": "f18900725493bcf9",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c70f3dbe14f62e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3be248ff39e0ef7a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "99-meta/MathDrawings/Standard -> Vertex.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Standard -> Vertex"
+            }
+          },
+          {
+            "id": "2829b63135272ec4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Math/Square Root Functions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Square Root Functions"
+            }
+          },
+          {
+            "id": "78d7c34464290841",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "01-Math/Quadratics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Quadratics"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0bc6d0dd6c08ebae",
+    "type": "split",
+    "children": [
+      {
+        "id": "97096f11f1f7a1e3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e9e01e2ee2c247c2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "000506061f757dba",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "restor",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5c54f6b2ccb84d46",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 252.5
+  },
+  "right": {
+    "id": "37afb316d3f12e33",
+    "type": "split",
+    "children": [
+      {
+        "id": "746346044a384511",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9bbdacc1068b208e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04-History/U2/L5.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for L5"
+            }
+          },
+          {
+            "id": "860892cac37e89dc",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "d2c832c377490e46",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "848e5bc003aee52d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          },
+          {
+            "id": "b8361c16369c245a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "review-queue-list-view"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "markdown-importer:Open format converter": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "zk-prefixer:Create new unique note": false,
+      "obsidian-excalidraw-plugin:New drawing": false
+    }
+  },
+  "active": "78d7c34464290841",
+  "lastOpenFiles": [
+    "01-Math/Square Root Functions.md",
+    "SCRATCH.md",
+    "99-meta/MathDrawings/Standard -> Vertex.md",
+    "01-Math/Quadratics.md",
+    "99-meta/MathDrawings/squared functions.md",
+    "99-meta/MathDrawings/Untitled.md",
+    "99-meta/MathDrawings/Square Root Function.md",
+    "99-meta/MathDrawings/Quadratic Function.md",
+    "04-History/99-Vocab/Times/Consumer Revolution.md",
+    "99-meta/MathDrawings",
+    "99-meta/Images/Screenshot 2025-09-23 at 19-49-48 APUSHIST A P The Development of Civilization in North America - Page 1 of 11.png",
+    "01-Math/01-Lessons/4.2.md",
+    "04-History/01-Lessons/3.2.md",
+    "04-History/04-Wars/Stono Slave Rebellion.md",
+    "04-History/01-Lessons/3.5.md",
+    "04-History/99-Vocab/Times/Age of Enlightenment.md",
+    "04-History/99-Vocab/Places/Middle Passage.md",
+    "04-History/99-Vocab/ideas/Columbian Exchange.md",
+    "04-History/01-Lessons/3.4.md",
+    "04-History/03-Cultures/Tribes/Pueblo People.md",
+    "04-History/01-Lessons/3.6.md",
+    "04-History/03-Cultures/religions/Christianity/Deism.md",
+    "04-History/01-Lessons/3.7.md",
+    "04-History/03-Cultures/Colonies/English/Connecticut.md",
+    "04-History/99-Vocab/Documents/Treaty of Paris.md",
+    "04-History/99-Vocab/Documents/Mayflower Compact.md",
+    "04-History/99-Vocab/Documents/95 Theses.md",
+    "04-History/99-Vocab/Documents/Charter of the Massachusetts Bay Company.md",
+    "04-History/99-Vocab/Places",
+    "04-History/99-Vocab/ideas",
+    "04-History/99-Vocab/Times",
+    "04-History/99-Vocab/Documents",
+    "02-English/sources/Common Sense",
+    "02-English/sources",
+    "02-English/01-Lessons",
+    "02-English",
+    "05-Crochet/hat.png",
+    "06-Coding/AI Prompts",
+    "03-Physics/99-PDF/Kinematics_1.png",
+    "03-Physics/99-PDF/Kinematics.png",
+    "03-Physics/99-PDF/U1_L1_Cameron_Wilcox.png"
+  ]
+}

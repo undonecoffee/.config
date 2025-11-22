@@ -1,0 +1,14 @@
+{
+  "vimMode": true,
+  "promptDelete": false,
+  "showLineNumber": false,
+  "readableLineLength": false,
+  "spellcheck": false,
+  "foldIndent": true,
+  "alwaysUpdateLinks": true,
+  "showIndentGuide": false,
+  "useTab": false,
+  "autoPairMarkdown": true,
+  "strictLineBreaks": false,
+  "tabSize": 2
+}

@@ -1,0 +1,49 @@
+#!/bin/sh
+# TMP_IMG="~/Downloads/temp.png"
+sxhkd &
+xrandr --output DP-0 --mode 1920x1080 --rate 165
+bspc config border_width 0
+bspc config window_gap 0
+bspc config split_ratio 0.52
+bspc config borderless_monocle true
+bspc config gapless_monocle true
+
+bspc monitor -d I II III IV t-term space-code p-btop y-testing o-obsidian b-firefox a-chatgpt g-github v-monkeytype m-music n-school
+
+bspc rule -a shell desktop='t-term' follow=off
+bspc rule -a nvim desktop='space-code' follow=off
+bspc rule -a btop desktop='p-btop' follow=off
+bspc rule -a testing desktop='y-testing' follow=off
+bspc rule -a obsidian desktop='o-obsidian' follow=off
+bspc rule -a firefox desktop='b-firefox' follow=off
+bspc rule -a chatgpt desktop='a-chatgpt' follow=off
+bspc rule -a github desktop='g-github' follow=off
+bspc rule -a monkeytype desktop='v-monkeytype' follow=off
+bspc rule -a music desktop='m-music' follow=off
+bspc rule -a school desktop='n-school' follow=off
+
+unclutter -idle 0.7 &
+picom --experimental-backends &
+
+bspc node -d "b-firefox"
+firefox --no-remote -P default-release --class firefox &
+
+sleep 2
+kitty --class shell bash -lc 'tmux; exec bash' &
+kitty --class nvim bash -lc 'tmux; exec bash' &
+kitty --class btop bash -lc 'btop; exec bash' &
+kitty --class btop bash -lc 'btop; exec bash' &
+kitty --class btop bash -lc 'btop; exec bash' &
+# kitty --class btop bash -lc 'gotop --statusbar --rate=1 --color=vice; exec bash' &
+# kitty --class btop bash -lc 'gotop --statusbar --rate=2 --color=vice; exec bash' &
+# kitty --class btop bash -lc 'gotop --statusbar --rate=3 --color=vice; exec bash' &
+obsidian &
+firefox --no-remote -P chatgpt --class chatgpt https://chatgpt.com &
+firefox --no-remote -P github --class github https://github.com/undonecoffee?tab=repositories &
+firefox --no-remote -P monkeytype --class monkeytype https://monkeytype.com &
+firefox --no-remote -P music --class music https://music.youtube.com &
+firefox --no-remote -P school --class school https://desmos.com/calculator &
+
+# firefox --no-remote -P testing         --class testing    http://localhost:5173/ &
+# chromium --app=http://localhost:5173/  --name="testing" --class testing
+xsetroot -solid "#16181A"

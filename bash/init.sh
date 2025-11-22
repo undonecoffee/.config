@@ -1,0 +1,6 @@
+. "$BASHRC/exports.sh"
+. "$BASHRC/alias.sh"
+. "$BASHRC/rerun.sh"
+. "$BASHRC/misc.sh"
+. "$BASHRC/theme.sh"
+. "$BASHRC/bashrc.sh"

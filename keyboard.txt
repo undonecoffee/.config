@@ -1,0 +1,26 @@
+DISPLAY USE ONLY
+
+|  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  |  '   |
+|  ESC |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |BSPC |  /   | 
+| SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  @  |  ,  |  .  | none |
+                   | LALT|LCTRL| SPC |   | ENT | RSE  | mod |
+                   
+| TAB  |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  0  |  9  |  `  |
+| LALT |  !  |  &  |  =  |  *  |  +  |   |  {  |  (  |  [  |  ;  |  :  |  "  |
+| SHFT |  $  |  ?  |  _  |  /  |  -  |   |  }  |  )  |  ]  |  <  |  >  |  |  |
+                   |LCTRL|MACRO| SPC |   | ENT |||||||     |
+
+|      |     |     |     |     |     |   |  %  |  @  |  ^  |     |TILDE|  #  |
+|      |     |     |     |     |     |   |     |     |     |     |     |  \  |
+|      |     |     |     |     |     |   |     |     |     |     |     | BTC |
+                   |LCTRL||||||| SPC |   | ENT |||||||     |
+
+|      |  I  | II  | III |  IV  | term |   | test |     |read |copy |gotop|      |
+|      | AI  |close|open |      | git  |   |  ←   |  ↓  |  ↑  |  →  |     |      | 
+|      |sxhkd|     |kitty| type |browse|   |school|music|     |     |     |      |
+                   |     |      | code |   |      |     |||||||
+
+|      |     |     |     |      |      |   |  ←   |  ↓  |  ↑  |  →  |     |      | 
+|      |     |     |     |      |      |   |  ←   |  ↓  |  ↑  |  →  |     |      | 
+|      |     |     |     |      |      |   |      |     |     |     |     |      |
+                   |||||||      |      |   | LCLK |RCLK |MCLK |

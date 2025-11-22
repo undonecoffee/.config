@@ -1,0 +1,6 @@
+{
+  "format": "MM-DD-YY",
+  "folder": "/",
+  "template": "99-meta/templates/Day",
+  "autorun": false
+}

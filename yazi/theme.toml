@@ -1,0 +1,43 @@
+
+# ~/.config/yazi/theme.toml
+[ui]
+bg       = "#2E3440"
+fg       = "#D8DEE9"
+title_bg = "#3B4252"
+title_fg = "#88C0D0"
+border_fg = "#4C566A"
+cursor_bg = "#88C0D0"
+cursor_fg = "#2E3440"
+
+[status]
+normal_fg   = "#E5E9F0"
+normal_bg   = "#3B4252"
+select_fg   = "#2E3440"
+select_bg   = "#A3BE8C"
+error_fg    = "#ECEFF4"
+error_bg    = "#BF616A"
+
+[filetype]
+rules = [
+  { mime = "inode/directory", fg = "#81A1C1" },
+  { exec = true, fg = "#A3BE8C" },
+  { mime = "inode/symlink", fg = "#B48EAD" },
+  { mime = "inode/socket", fg = "#BF616A" },
+  { mime = "image/*", fg = "#EBCB8B" },
+  { mime = "video/*", fg = "#B48EAD" },
+  { mime = "audio/*", fg = "#A3BE8C" },
+  { name = "*", fg = "#D8DEE9" }
+]
+
+[icon]
+prepend_dirs = [
+  { name = "Desktop", text = "", fg = "#88C0D0" }
+]
+append_exts = [
+  { name = "md", text = "", fg = "#EBCB8B" }
+]
+
+[preview]
+border_fg = "#4C566A"
+title_bg   = "#3B4252"
+title_fg   = "#88C0D0"
